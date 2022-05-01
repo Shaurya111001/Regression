@@ -5,12 +5,12 @@ import streamlit as st
 st.set_option('deprecation.showPyplotGlobalUse', False)
 st.title("REGRESSION")
 st.header("Housing Prices in HYDERABAD")
-data1 = pd.read_csv('Datasets/hyderabad.csv')
-data2 = pd.read_csv('Datasets/bangalore.csv')
-data3 = pd.read_csv('Datasets/mumbai.csv')
-data4 = pd.read_csv('Datasets/delhi.csv')
-data5 = pd.read_csv('Datasets/chennai.csv')
-data6 = pd.read_csv('Datasets/kolkata.csv')
+data1 = pd.read_csv('Datasets/Hyderabad.csv')
+data2 = pd.read_csv('Datasets/Bangalore.csv')
+data3 = pd.read_csv('Datasets/Mumbai.csv')
+data4 = pd.read_csv('Datasets/Delhi.csv')
+data5 = pd.read_csv('Datasets/Chennai.csv')
+data6 = pd.read_csv('Datasets/Kolkata.csv')
 data1.head()
 
 
